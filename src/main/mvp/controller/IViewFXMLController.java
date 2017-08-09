@@ -17,7 +17,6 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import main.mvp.model.TimeSaver;
-import sun.net.www.content.text.PlainTextInputStream;
 
 public class IViewFXMLController {
 	@FXML BorderPane root;
@@ -52,7 +51,7 @@ public class IViewFXMLController {
 		applyTimeToSpinner();
 		
 		counting = false;
-		mediaplayer = new MediaPlayer(new Media(new File("D:/Musik/MP3/railroad_crossing_bell-Brylon_Terry-1551570865.mp3").toURI().toString()));
+		mediaplayer = new MediaPlayer(new Media(getClass().getResource("../view/css/music/railroad_crossing_bell-Brylon_Terry-1551570865.mp3").toExternalForm()));
 		
 		root.setOnKeyPressed(new EventHandler<KeyEvent>() {
 

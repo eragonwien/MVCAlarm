@@ -71,6 +71,11 @@ public class TimeSaver {
 	}
 	
 	public void readTime(){
+		if(!new File(saverpath).exists()){
+			setTime(0, 0, 0);
+			saveTime();
+		}
+		
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(new FileReader(new File(saverpath)));
