@@ -36,7 +36,7 @@
 }
 #startButton {
 	-fx-column-halignment: center;
-	-fx-background-image: url(./images/play.png) ;
+	-fx-background-image: url(./css/images/play.png) ;
 	-fx-background-position: center;
 	-fx-background-size:  50% 50%  ;
 	-fx-background-radius: 5em;
@@ -53,7 +53,7 @@
 
 #startButton:hover {
 	-fx-column-halignment: center ;
-	-fx-background-image: url(./images/play.png) ;
+	-fx-background-image: url(./css/images/play.png) ;
 	-fx-background-position: center;
 	-fx-background-size:  50% 50%  ;
 	-fx-background-radius: 5em;
@@ -69,7 +69,7 @@
 
 #stopButton {
 	-fx-column-halignment: center ;
-	-fx-background-image: url(./images/stop.png) ;
+	-fx-background-image: url(./css/images/stop.png) ;
 	-fx-background-position: center;
 	-fx-background-size:  50% 50%  ;
 	-fx-background-radius: 5em;
@@ -85,7 +85,7 @@
 
 #stopButton:hover {
 	-fx-column-halignment: center ;
-	-fx-background-image: url(./images/stop.png) ;
+	-fx-background-image: url(./css/images/stop.png) ;
 	-fx-background-position: center;
 	-fx-background-size:  50% 50%  ;
 	-fx-background-radius: 5em;
@@ -101,7 +101,7 @@
 
 #replayButton {
 	-fx-column-halignment: center ;
-	-fx-background-image: url(./images/refresh.png) ;
+	-fx-background-image: url(./css/images/refresh.png) ;
 	-fx-background-position: center;
 	-fx-background-size:  50% 50%  ;
 	-fx-background-radius: 5em;
@@ -117,7 +117,7 @@
 
 #replayButton:hover {
 	-fx-column-halignment: center ;
-	-fx-background-image: url(./images/refresh_white.png) ;
+	-fx-background-image: url(./css/images/refresh_white.png) ;
 	-fx-background-position: center;
 	-fx-background-size:  50% 50%  ;
 	-fx-background-radius: 5em;
@@ -130,4 +130,3 @@
 	-fx-font-family: 'serif';
 	-fx-font-size: 20;
 }
-

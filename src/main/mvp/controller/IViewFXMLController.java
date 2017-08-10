@@ -51,7 +51,8 @@ public class IViewFXMLController {
 		applyTimeToSpinner();
 		
 		counting = false;
-		mediaplayer = new MediaPlayer(new Media(getClass().getResource("../view/css/music/railroad_crossing_bell-Brylon_Terry-1551570865.mp3").toExternalForm()));
+		Media media = new Media(getClass().getResource("/sound/railroad_crossing_bell-Brylon_Terry-1551570865.mp3").toExternalForm());
+		mediaplayer = new MediaPlayer(media);
 		
 		root.setOnKeyPressed(new EventHandler<KeyEvent>() {
 
