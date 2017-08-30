@@ -2,7 +2,7 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>D:\Documents\git\MVCAlarm\executable\FXAlarm.jar</jar>
+  <jar>D:\Documents\git\MVCAlarm\executable\MVCAlarm.jar</jar>
   <outfile>D:\Documents\git\MVCAlarm\executable\MVCAlarm.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
@@ -13,7 +13,7 @@
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
-  <icon></icon>
+  <icon>D:\Bilder\Icons\Tinylab-Android-Lollipop-Apps-7-Minutes.ico</icon>
   <jre>
     <path></path>
     <bundledJre64Bit>false</bundledJre64Bit>
